@@ -8,5 +8,5 @@ const Home: NextPage = () => {
 export default Home
 
 const HelloWrapper = styled.div`
-  color: green;
+  color: ${({ theme }) => theme.colors.secondary};
 `
